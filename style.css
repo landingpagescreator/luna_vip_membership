@@ -1,0 +1,1100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 90vh;
+}
+
+/* the main 1 starts */
+
+.main1 {
+    height: 95vh;
+}
+
+.main1 header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: #c79c6e 2px solid;
+}
+
+/* logo section  starts*/
+
+.logo_section {
+    height: 100%;
+    width: 30%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.logo_section:hover {
+    cursor: pointer;
+}
+
+#logo {
+    width: 17%;
+    height: 100%;
+    background: url(logo.png) center no-repeat;
+    background-size: 12vh;
+}
+
+#rania {
+    width: 57%;
+    height: 100%;
+    background: url(raniamimoune.png) center center/cover no-repeat;
+}
+/* logo section  ends*/
+
+
+/* nav section starts */
+header nav {
+    /* background-color: rgb(251, 82, 82); */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: #c79c6e;
+    text-shadow: black 2px 2px 2px;
+}
+
+nav ul li:nth-child(1) {
+    display: none;
+}
+
+nav ul li:nth-child(6) a {
+    padding: 6px 15px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    animation-name: button-five;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: all .5s;
+}
+
+nav ul li:nth-child(6) a:hover {
+    text-shadow: none;
+    border: black 1px solid;
+    color: black;
+}
+/* nav section ends */
+
+/* styling the navbar menu*/
+#navbar_menu {
+    display: none;
+    color: black;
+}
+/* the navbar menu styling ends */
+
+.main1 section {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 section img {
+    width: 40%;
+    height: 98%;
+    border-radius: 150px;
+    box-shadow: black -10px 10px 20px;
+    transition: all .5s;
+}
+
+.main1 section img:hover {
+    width: 42%;
+    height: 100%;
+}
+
+.main1 section p {
+    /* z-index: 1; */
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: #B75C7A 5px 5px 5px;
+    text-align: center;
+    margin-left: 35px;
+    transition: all .5s;
+}
+
+.main1 section p:hover {
+    font-size: 52px;
+    color: #B75C7A;
+    text-shadow: black 3px 3px;
+    cursor: default;
+}
+
+/* the main 1 ends */
+
+/* ------------------------- */
+
+/* the main 2 starts */
+.main2 {
+    background-image: linear-gradient(#c79c6e, #b75c7a);
+    height: 65vh;
+    padding: 20px;
+}
+
+.main2 > p {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    margin: 20px auto;
+}
+
+.main2 p:nth-child(3) {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+@keyframes button-two {
+    0% {
+        background-image: none;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+    50% {
+        background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+        background-color: white;
+        color: white;
+        font-size: 27px;
+        border: white 2px solid;
+    }
+    100% {
+        background-image: none;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+}
+
+.main2 a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin: 40px auto;
+    animation-name: button-two;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: all .5s;
+}
+
+.main2 a:hover {
+    color: white;
+    background-image: linear-gradient(to right, #c79c6e, #b75c7a);
+    border: white 1px solid;
+}
+
+
+
+/* the main 2 ends */
+
+/* the main 3 and 4 starts */
+.main3, .main4 {
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main4 {
+    background-image: linear-gradient(to right, #c79c6e, #b75c7a);
+    height: 70vh;
+}
+
+.main3 h1, .main4 h1, .main5 h1, .main6 h1, .main7 > div h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #b75c7a;
+}
+
+.main4 h1 {
+    color: white;
+}
+
+.main3 p, .main4 p, .main5 p {
+    font-size: 23px;
+    text-align: center;
+    margin: 20px;
+}
+
+.main4 p {
+    color: white;
+}
+
+.main3 ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+    width: 95%;
+    position: relative;
+}
+
+.main3 ul li:nth-child(7) {
+    position: absolute;
+    transform: translate(-20%, 50%);
+    bottom: -35%;
+}
+
+.main3 ul li img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+.main4 ul {
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+
+.main3 ul li, .main4 ul li {
+    width: 70%;
+    font-size: 23px;
+    margin: 10px auto;
+}
+
+.main3 ul li {
+    margin: 20px auto;
+}
+
+.main4 ul li {
+    color: white;
+}
+
+.main4 ul li i.fa-solid {
+    color: white;
+}
+
+
+/* the main 3 and 4 ends */
+
+/* the main 5 starts */
+.main5 {
+    background-color: white;
+    height: 45vh;
+    padding: 20px;
+}
+
+.main5 h1 {
+    color: #b75c7a;
+}
+
+.main5 p {
+    font-size: 25px;
+}
+
+@keyframes button-five {
+    0% {
+        background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+        color: white;
+        font-size: 25px;
+    }
+    50% {
+        background-image: none;
+        background-color: white;
+        color: black;
+        font-size: 27px;
+        border: black 2px solid;
+    }
+    100% {
+        background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+        color: white;
+        font-size: 25px;
+    }
+}
+
+.main5 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+    width: 300px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 25px;
+    animation-name: button-five;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: all .5s;
+}
+
+.main5 a:hover {
+    color: black;
+    background-image: linear-gradient(to right, #c79c6e, #b75c7a);
+    border: black 1px solid;
+}
+
+/* the main 5 ends */
+
+/* the main 6 starts */
+.main6 {
+    background-image: linear-gradient(to right, #b75c7a , #c79c6e);
+    height: 80vh;
+    padding: 20px;
+}
+
+.main6 h1 {
+    color: white;
+}
+
+.main6 > div {
+    width: 75%;
+    height: 85%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 2px solid;
+}
+
+.main6 #photo {
+    margin: 5px;
+    width: 25%;
+    height: 90%;
+    background: url(mohiba.jpg) no-repeat center center/contain;
+    /* position: relative; */
+    border: white 5px solid;
+    transition: all 2s;
+}
+
+.main6 #photo #name {
+    background-color: white;
+    font-size: 25px;
+    font-weight: 600;
+    direction: ltr;
+    text-align: center;
+    transition: all 2s;
+}
+
+.main6 #flag_saying {
+    margin: 5px;
+    width: 75%;
+    height: 90%;
+    display: block;
+    text-align: center;
+}
+
+.main6 #flag_saying #flag {
+    border: white 5px solid;
+    height: 30%;
+    width: 25%;
+    margin: 20px auto;
+    background: url(no.png) no-repeat center center/cover;
+    transition: all 2s;
+}
+
+.main6 #flag_saying #saying {
+    color: white;
+    width: 100%;
+    height: 58%;
+    padding: 5px;
+    margin: auto;
+    direction: rtl;
+    font-size: 20px;
+    transition: all 2s;
+}
+/* the main 6 ends */
+
+/* the main 7 starts */
+.main7 {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main7 > div {
+    height: 100%;
+    width: 55%;
+    padding: 20px;
+}
+
+.main7 > div:nth-child(1) {
+    width: 45%;
+    background: url(rania2.JPG) no-repeat center center/cover;
+}
+
+.main7 > div h1 {
+    color: #b75c7a;
+    text-align: right;
+    width: fit-content;
+    margin: auto;
+}
+
+.main7 > div ul {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.main7 > div p {
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* the main 7 ends */
+
+/* the main 8 starts */
+.main8 {
+    background-image: linear-gradient(#c79c6e, #b75c7a);
+    height: 15vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main8 span {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.main8 a {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes yrouh-w-yji
+{
+    0% {
+        background-color: white;
+        color: black;
+    }
+
+    50% {
+        background-color: black;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+        color: black;
+    }
+}
+
+.main8 i {
+    font-size: 25px;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation-name: yrouh-w-yji;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: all .5s;
+}
+
+.main8 i:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+/* the main 8 ends */
+
+
+/* media queries */
+/* for Ipad */
+
+@media screen and (max-width: 1200px) {
+    /* the main 1 starts */
+    .main1 {
+        height: 65vh;
+    }
+
+    .main1 header {
+        padding: 0 10px;
+        height: 13vh;
+    }
+
+    /* logo section starts */
+    .logo_section {
+        width: 30%;
+        justify-content: flex-start;
+        background-color: white;
+    }
+
+    #logo {
+        background-size: 5vh;
+        width: 20%;
+    }
+
+    #rania {
+        background-size: 18vh;
+        width: 70%;
+        margin-right: 5px;
+    }
+
+    /* nav section  starts*/
+    nav ul li {
+        /* display: inline; */
+        margin: 0 10px;
+    }
+
+    nav ul li:nth-child(1):hover {
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    nav ul li a {
+        font-size: 19px;
+    }
+
+    nav ul li:nth-child(6) a {
+        padding: 4px 10px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+
+    .main1 section {
+        height: 50vh;
+    }
+
+    .main1 section img {
+        height: 60%;
+        width: 50%;
+        border-radius: 70px;
+    }
+
+    .main1 section img:hover {
+        width: 47%;
+        height: 90%;
+    }
+
+    .main1 section p {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 25px;
+    }
+
+    .main1 section p:hover {
+        font-size: 32px;
+    }
+
+
+    /* the main 2 starts */
+    .main2 {
+        padding: 15px;
+        height: 35vh;
+    }
+
+    .main2 > p {
+        font-size: 40px;
+    }
+
+    .main2 p:nth-child(3) {
+        font-size: 30px;
+    }
+
+    /* the main 3 and 4 starts */
+    .main3, .main4 {
+        height: 60vh;
+        padding: 15px;
+    }
+
+    .main4 {
+        height: 35vh;
+    }
+
+    .main3 p, .main4 p, .main5 p {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .main3 ul {
+        width: 100%;
+        position: relative;
+        grid-template-columns: auto auto;
+    }
+
+    .main3 ul li {
+        display: block;
+    }
+
+    .main3 ul li:nth-child(7) {
+        position: absolute;
+        transform: translate(-15%, 50%);
+        bottom: -20%;
+    }
+
+    .main3 ul li, .main4 ul li {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .main3 ul li img {
+        width: 60px;
+        height: 60px;
+        /* display: block;
+        margin: auto; */
+    }
+
+    /* the main 5 starts */
+    .main5 {
+        padding: 15px;
+        height: 25vh;
+    }
+    
+    .main5 p {
+        font-weight: 400;
+        font-size: 28px;
+        margin: 20px 0;
+    }
+
+    .main5 a {
+        width: 300px;
+        height: 50px;
+        padding: 5px;
+        font-size: 20px;
+        display: block;
+        align-items: center;
+    }
+
+    /* the main 6 starts */
+    .main6 {
+        height: 45vh;
+    }
+
+    .main6 h1 {
+        font-size: 25px;
+    }
+
+    .main6 > div {
+        width: 95%;
+        height: 90%;
+    }
+
+    .main6 #photo {
+        height: 65%;
+    }
+
+    .main6 #photo #name {
+        font-size: 20px;
+    }
+
+    .main6 #flag_saying #flag {
+        width: 25%;
+        height: 20%;
+        margin: 10px auto;
+    }
+
+    .main6 #flag_saying #saying {
+        height: 70%;
+    }
+
+    /* the main 7 starts */
+    .main7 {
+        height: 36vh;
+        justify-content: space-around;
+    }
+
+    .main7 > div {
+        padding: 10px;
+        width: 55%;
+    }
+
+    .main7 > div h1 {
+        font-size: 25px;
+    }
+
+    .main7 > div ul {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .main7 > div ul li {
+        font-size: 16px;
+    }
+
+    .main7 > div p {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    /* the main 8 starts */
+    .main8 {
+        height: 10vh;
+        padding: 10px;
+    }
+
+    .main8 span {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .main8 i {
+        font-size: 23px;
+        width: 25px;
+        height: 25px;
+    }
+    
+}
+
+/* for Mobile */
+
+@media screen and (max-width: 800px) {
+    /* the main 1 starts */
+    .main1 {
+        height: 60vh;
+    }
+
+    .main1 header {
+        position: relative;
+        height: 8vh;
+    }
+
+    #navbar_menu {
+        display: block;
+        border-radius: 5px;
+        padding: 2px;
+        margin: 10px;
+        transition: all .5s;
+    }
+
+    #navbar_menu:hover {
+        cursor: pointer;
+        background: linear-gradient(#b75c7a,#c79c6e);
+        font-size: 28px;
+    }
+
+    .logo_section {
+        width: 58%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #logo {
+        background-size: 6vh;
+    }
+
+    #rania {
+        background-size: 23vh;
+    }
+
+    header nav {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        background-image: linear-gradient(#b75c7a, #c79c6e);
+        z-index: 1;
+        transform: all .5s;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        width: 90%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    nav ul li:hover {
+        background-color: white;
+    }
+
+    nav ul li:nth-child(1) {
+        display: block;
+    }
+
+    nav ul li:nth-child(6) {
+        display: none;
+    }
+
+    nav ul li a {
+        display: block;
+        height: 100%;
+    }
+
+    nav ul li a:hover {
+        color: #b75c7a;
+    }
+
+    .main1 section {
+        z-index: 0;
+        display: block;
+        height: 45vh;
+        /* background-image: linear-gradient(to right, #c79c6e, #b75c7a); */
+    }
+
+    .main1 section {
+        margin: auto;
+    }
+
+    .main1 section img {
+        display: block;
+        height: 60%;
+        width: 65%;
+        border-radius: 50px;
+        margin: 30px auto;
+        margin-top: 20px;
+        box-shadow: black 10px -10px 40px, black -10px 10px 40px;
+    }
+
+    .main1 section img:hover {
+        width: 68%;
+        height: 67%;
+    }
+
+    .main1 section p {
+        font-size: 25px;
+        line-height: 40px;
+        margin: 20px auto;
+    }
+
+    .main1 section p:hover {
+        text-shadow: white 3px 3px 3px, white -3px -3px 3px;
+        color: #b75c7a;
+        font-size: 27px;
+    }
+
+    /* the main 2 starts */
+
+    .main2 {
+        height: 50vh;
+    }
+
+    .main2 > p {
+        font-size: 25px;
+    }
+
+    .main2 p:nth-child(3) {
+        font-size: 23px;
+    }
+
+    @keyframes button-two {
+        0% {
+            background-image: none;
+            background-color: white;
+            color: black;
+            font-size: 23px;
+        }
+        50% {
+            background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+            background-color: white;
+            color: white;
+            font-size: 20px;
+            border: white 2px solid;
+        }
+        100% {
+            background-image: none;
+            background-color: white;
+            color: black;
+            font-size: 23px;
+        }
+    }
+
+    .main2 a {
+        width: 150px;
+        height: 43px;
+        font-size: 23px;
+    }
+
+    /* the main 3 and 4 starts */
+    .main3 {
+        height: 70vh;
+        padding: 10px;
+    }
+
+    .main3 p {
+        margin: 20px auto;
+    }
+
+    .main3 ul {
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+
+    .main3 ul li {
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .main3 ul li img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main3 ul li:nth-child(7) {
+        transform: translate(-13%, 50%);
+        bottom: -20%;
+    }
+
+    .main4 ul {
+        width: 100%;
+    }
+
+    .main4 h1, .main3 h1 {
+        margin: 10px auto;
+    }
+
+    .main4 {
+        height: 60vh;
+        padding: 10px;
+    }
+
+    .main4 ul li {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* the main 5 starts */
+    .main5 {
+        padding: 10px;
+        height: 40vh;
+    }
+
+    @keyframes button-five {
+        0% {
+            background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+            color: white;
+            font-size: 23px;
+        }
+        50% {
+            background-image: none;
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            border: black 2px solid;
+        }
+        100% {
+            background-image: linear-gradient(to right, #b75c7a, #c79c6e);
+            color: white;
+            font-size: 23px;
+        }
+    }
+
+    .main5 a {
+        height: 43px;
+    }
+
+    /* the main 6 starts */
+    .main6 {
+        height: 50vh;
+    }
+
+    .main6 > div {
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .main6 #photo {
+        height: 40%;
+    }
+
+    .main6 #photo #name {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .main6 #flag_saying {
+        height: 90%;
+    }
+
+    .main6 #flag_saying #flag {
+        width: 40%;
+        height: 20%;
+    }
+
+    .main6 #flag_saying #saying {
+        height: 82%;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    /* the main 7 starts */
+    .main7 {
+        height: 100vh;
+        display: block;
+    }
+
+    .main7 > div {
+        height: 50%;
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .main7 > div:nth-child(1) {
+        width: 100%;
+        border: white 20px solid;
+    }
+
+    .main7 > div ul {
+        width: 100%;
+    }
+
+    .main7 > div ul li {
+        font-size: 16px;
+    }
+
+    /* the main 7 starts */
+    .main8 i {
+        font-size: 20px;
+    }
+}
